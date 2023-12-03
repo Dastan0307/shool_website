@@ -4,25 +4,25 @@ import "./features.css";
 
 const FeatureData = [
   {
-    title: "Quick Learning",
+    title: "Быстрое обучение",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
     icon: "ri-draft-line",
   },
 
   {
-    title: "All Time Support",
+    title: "Постоянная поддержк",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
     icon: "ri-discuss-line",
   },
 
   {
-    title: "Certification",
+    title: "Сертификация",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
     icon: "ri-contacts-book-line",
   },
 ];
 
-const Features = () => {
+const   Features = () => {
   return (
     <section>
       <Container>

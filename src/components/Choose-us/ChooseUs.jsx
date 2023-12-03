@@ -14,7 +14,7 @@ const ChooseUs = () => {
         <Row>
           <Col lg="6" md="6">
             <div className="choose__content">
-              <h2>Why Choose Us</h2>
+              <h2>Почему выбрали нас</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Incidunt mollitia nostrum harum eos praesentium odit a sed quod

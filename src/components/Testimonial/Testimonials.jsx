@@ -26,13 +26,13 @@ const Testimonials = () => {
               </div>
 
               <div className="testimonial__content w-50">
-                <h2 className="mb-4">Our Students Voice</h2>
+                <h2 className="mb-4">Голос наших студентов</h2>
 
                 <Slider {...settings}>
                   <div>
                     <div className="single__testimonial">
                       <h6 className="mb-3 fw-bold">
-                        Excellent course of materials
+                      Отличный курс материалов
                       </h6>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -41,8 +41,8 @@ const Testimonials = () => {
                       </p>
 
                       <div className="student__info mt-4">
-                        <h6 className="fw-bold">Jhon Doe</h6>
-                        <p>California, United State</p>
+                        <h6 className="fw-bold">Руслан Бекешов</h6>
+                        <p>Калифорния, США</p>
                       </div>
                     </div>
                   </div>
@@ -50,7 +50,7 @@ const Testimonials = () => {
                   <div>
                     <div className="single__testimonial">
                       <h6 className="mb-3 fw-bold">
-                        Excellent course of materials
+                      Отличный курс материалов
                       </h6>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -59,8 +59,8 @@ const Testimonials = () => {
                       </p>
 
                       <div className="student__info mt-4">
-                        <h6 className="fw-bold">Jhon Doe</h6>
-                        <p>California, United State</p>
+                        <h6 className="fw-bold">Сыймык Шамшиев</h6>
+                        <p>Германия, Европа</p>
                       </div>
                     </div>
                   </div>
@@ -68,7 +68,7 @@ const Testimonials = () => {
                   <div>
                     <div className="single__testimonial">
                       <h6 className="mb-3 fw-bold">
-                        Excellent course of materials
+                      Отличный курс материалов
                       </h6>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -77,8 +77,8 @@ const Testimonials = () => {
                       </p>
 
                       <div className="student__info mt-4">
-                        <h6 className="fw-bold">Jhon Doe</h6>
-                        <p>California, United State</p>
+                        <h6 className="fw-bold">Руслан Бекешов</h6>
+                        <p>Калифорния, США</p>
                       </div>
                     </div>
                   </div>

@@ -18,7 +18,7 @@ const AboutUs = () => {
 
           <Col lg="6" md="6">
             <div className="about__content">
-              <h2>About Us</h2>
+              <h2>О нас</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Excepturi cupiditate animi deserunt libero nesciunt corporis
@@ -29,28 +29,28 @@ const AboutUs = () => {
                 <div className=" d-flex gap-5 align-items-center">
                   <div className="single__counter">
                     <span className="counter">
-                      <CountUp start={0} end={25} duration={2} suffix="K" />
+                      <CountUp start={0} end={1} duration={2} suffix="K" />
                     </span>
 
-                    <p className="counter__title">Completed Projects</p>
+                    <p className="counter__title">Ученики </p>
                   </div>
 
                   <div className="single__counter">
                     <span className="counter">
-                      <CountUp start={0} end={12} duration={2} suffix="M" />
+                      <CountUp start={0} end={56} duration={2} suffix="" />
                     </span>
 
-                    <p className="counter__title">Patient Around World</p>
+                    <p className="counter__title">Преподаватель</p>
                   </div>
                 </div>
 
                 <div className=" d-flex gap-5 align-items-center">
                   <div className="single__counter">
                     <span className="counter">
-                      <CountUp start={0} end={95} duration={2} suffix="M" />
+                      <CountUp start={0} end={2} duration={2} suffix="К" />
                     </span>
 
-                    <p className="counter__title">Ideas Raised Funds</p>
+                    <p className="counter__title">Поступили заграницей</p>
                   </div>
 
                   <div className="single__counter">
@@ -58,7 +58,7 @@ const AboutUs = () => {
                       <CountUp start={0} end={5} duration={2} suffix="K" />
                     </span>
 
-                    <p className="counter__title">Categories Served</p>
+                    <p className="counter__title">Поступили в уинверситет</p>
                   </div>
                 </div>
               </div>

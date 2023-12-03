@@ -5,42 +5,42 @@ import "./footer.css";
 
 const footerQuickLinks = [
   {
-    display: "Home",
+    display: "Главная",
     url: "#",
   },
   {
-    display: "About US",
-    url: "#",
-  },
-
-  {
-    display: "Courses",
+    display: "О нас",
     url: "#",
   },
 
   {
-    display: "Blog",
+    display: "Курсы",
+    url: "#",
+  },
+
+  {
+    display: "Блог",
     url: "#",
   },
 ];
 
 const footerInfoLinks = [
   {
-    display: "Privacy Policy",
+    display: "Политика конфиденциальности",
     url: "#",
   },
   {
-    display: "Membership",
-    url: "#",
-  },
-
-  {
-    display: "Purchases Guide",
+    display: "Членство",
     url: "#",
   },
 
   {
-    display: "Terms of Service",
+    display: "Руководство по покупкам",
+    url: "#",
+  },
+
+  {
+    display: "Условия использовани",
     url: "#",
   },
 ];
@@ -52,11 +52,11 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="mb-4">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+              <i class="ri-pantone-line"></i> Ж.Абдуллаева.
             </h2>
 
             <div className="follows">
-              <p className="mb-0">Follow us on social media</p>
+              <p className="mb-0">Следуйте за нами в социальных сетях</p>
               <span>
                 {" "}
                 <a href="facebook.com">
@@ -88,7 +88,7 @@ const Footer = () => {
           </Col>
 
           <Col lg="3" md="6" className="mb-4">
-            <h6 className="fw-bold">Explore</h6>
+            <h6 className="fw-bold">Исследовать</h6>
             <ListGroup className="link__list">
               {footerQuickLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
@@ -100,7 +100,7 @@ const Footer = () => {
           </Col>
 
           <Col lg="3" md="6" className="mb-4">
-            <h6 className="fw-bold">Information</h6>
+            <h6 className="fw-bold">Информация</h6>
             <ListGroup className="link__list">
               {footerInfoLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
@@ -112,11 +112,11 @@ const Footer = () => {
           </Col>
 
           <Col lg="3" md="6">
-            <h6 className="fw-bold">Get in Touch</h6>
+            <h6 className="fw-bold">Связаться</h6>
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
-            <p>Email: example@gmail.com</p>
+            <p>Адрес: Ош, Хбк</p>
+            <p>Телефон: +996 220 020 307 </p>
+            <p>Почта: example@gmail.com</p>
           </Col>
         </Row>
       </Container>
